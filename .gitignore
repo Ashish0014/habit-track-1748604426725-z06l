@@ -9,6 +9,8 @@
 # production
 /build
 /dist
+/.next
+/.svelte-kit
 
 # misc
 .DS_Store
@@ -17,7 +19,6 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.env*.local
 
 # logs
 npm-debug.log*
@@ -25,19 +26,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# cache
-.cache/
-.parcel-cache/
-.next/
-out/
-.nuxt/
-.temp/
-
-# cypress
-cypress/videos/
-cypress/screenshots/
+.vscode
+.idea
